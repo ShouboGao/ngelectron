@@ -1,0 +1,37 @@
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+  <!-- BEGIN SIDEBAR -->
+  <div class="page-sidebar-wrapper">
+    <div class="page-sidebar navbar-collapse collapse">
+      <!-- BEGIN SIDEBAR MENU -->
+      <ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+        <!-- start  001-->
+        <li class="start">
+          <a routerLink="customers">
+            <i class="icon-book-open"></i>
+            <span class="title">成品销售单</span>
+            <span class="arrow "></span>
+          </a>
+          <ul class="sub-menu">
+            <li>
+              <a routerLink="customers/salesorder">
+                <i class="icon-layers"></i> 成品销售单</a>
+            </li>
+          </ul>
+        </li>
+        <!-- end 001 -->
+      </ul>
+      <!-- END SIDEBAR MENU -->
+    </div>
+  </div>
+  <!-- END SIDEBAR -->
+  <!-- BEGIN CONTENT -->
+  <div class="page-content-wrapper">
+    <div class="page-content" style="min-height:987px">
+      <!--加载右边页面-->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->

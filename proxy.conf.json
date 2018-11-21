@@ -1,0 +1,10 @@
+{
+  "/tms-inner": {
+    "target": "http://192.168.7.136:9600",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/tms-inner": ""
+    }
+  }
+}
